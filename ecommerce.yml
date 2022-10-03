@@ -1,0 +1,5 @@
+token:
+  expiration_time: 86400000 # 만료 기간 -> 하루
+  secret: secret-key # 토큰 키
+gateway:
+  ip: 127.0.0.1
