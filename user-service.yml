@@ -1,8 +1,9 @@
-datasource:
-  driver-class-name: org.h2.Driver
-  url: jdbc:h2:mem:testdb
-  username: sa
-  password: '{cipher}ea7a2a3c1a09c0e96aa851ce2666ca5b37474260c8a8a4fb5819e232b96d1821'
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}ea7a2a3c1a09c0e96aa851ce2666ca5b37474260c8a8a4fb5819e232b96d1821'
   
 token:
   expiration_time: 86400000 # 만료 기간 -> 하루
