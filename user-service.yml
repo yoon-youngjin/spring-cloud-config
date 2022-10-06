@@ -7,6 +7,6 @@ spring:
   
 token:
   expiration_time: 86400000 # 만료 기간 -> 하루
-  secret: secret-key # 토큰 키
+  secret: '{cipher}AQBr7zVkg9ilfUqJYsHQag/30IeJ0V7rfEnYFdviZP4OD2giykMG4o8cXH0JyFuCEqJCnp4V3Nm1/KH4GwAKddRH010ggTo3ltvBtcTRCs1hKaWlcn0NFB28/Ri7n83QRZou2V2FUsOoM52meynjZ6I9i6grDfzMVQXm8TtXe47xqmeLp0vT1vxZYVfnHWOeFn+0Iix+W70dtsSm+1A9FvQsaqVqkfoB0ECue0JriG9LbLXjYvFg/eo08clL5SAIqY46uLATBc2teN30v1nv5nZ+u8DAgVFkiIhN2nalaNprji9nsP4JHsHaJ+RpgsFY7BZThkXKxlRQNfkzf8TbONiIBvCx90YgQWn/LL5lDQ6x5qCAeiBPlyo5j/09bLHAGtE=' # 토큰 키
 gateway:
   ip: 127.0.0.1
