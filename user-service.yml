@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}ea7a2a3c1a09c0e96aa851ce2666ca5b37474260c8a8a4fb5819e232b96d1821'
+    password: '{cipher}AQAGAHR558KD3Y6dyjTaKvLwsMa5G4FdTSttuvxS6YN5qc5MYJB/LV41k18K+QgKOkKp6GfnfrqkUqqzPmUoV6M5Ms11JnpRQ5arsmY5oo+WOXNmUT+PAKWZ051atYngI6gNURNTYw2eHWzTqgywzgTDLj1NT8X94q3Ir5KuWeJMLCIzw442zUpPcDvfpl4YSE2n1KZ2vqncslNDfqPxeZGMJDKceIRspMRtnBbrtNA6hvqsX2XFYPQlf7HpBZ4XorMcLe+Ki+GJKcWJYE/4YPkgpBuNlwK9Y4WQQPqbAI7ghfAqmADyJSkFQ+nG+S0ho0lmmgJcTw7EwSkL/vd3Br6k3u0kCBa9Mylrp9tyRBxwDQMvR3bRDHAKDiils0pu8wQ='
   
 token:
   expiration_time: 86400000 # 만료 기간 -> 하루
